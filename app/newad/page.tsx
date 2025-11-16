@@ -23,7 +23,7 @@ export default function NewadPage() {
   const [kategoriak, setKategoriak] = useState<KategoriaItem[]>([]);
 
   const [hirdetes, setHirdetes] = useState<HirdetesItem>({
-    kepUrl: "http://jedlik.eu/kep.jpg",
+    kepUrl: "",
     hirdetesDatuma: new Date().toISOString().split("T")[0],
     tehermentes: true,
   } as HirdetesItem);
